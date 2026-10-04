@@ -20,5 +20,9 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
-# OS
+# OS & Database
 .DS_Store
+*.db
+*.sqlite3
+
+all-rnr-annotated-threads/
