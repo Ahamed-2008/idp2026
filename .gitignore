@@ -1,0 +1,24 @@
+# Data (large, don't commit - document how to regenerate instead)
+data/raw/*
+data/processed/*
+data/external/*
+outputs/graphs/*
+outputs/models/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+!outputs/graphs/.gitkeep
+!outputs/models/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
