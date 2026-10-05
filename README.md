@@ -27,7 +27,7 @@ q-misinfoguard/
 ```
 
 ## Phase 1 - data pipeline, detection model, graph construction
-1. Download PHEME (9-event) into `data/raw/`.
+1. Download PHEME (9-event) into `data/raw/` and build `data/processed/pheme.db` (see [docs/DATA_SETUP.md](docs/DATA_SETUP.md)).
 2. `python src/graph/pheme_to_interactions.py data/raw/<event> --out-dir data/processed/<event>`
 3. Get `detection_output.json` from the detection module, place in `data/external/`.
 4. `python src/graph/build_propagation_graph.py` (update its hardcoded paths, or pass as args)
